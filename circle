@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class circle
+{
+public static void main( String  args[] )
+{
+int r,circle,circumfences;
+Scanner s=new Scanner(System.in);
+System.out.print("enter the r value");
+r=s.nextInt();
+circle=22/7*r*r;
+circumfences=2*22/7*r*r;
+System.out.print("area of circle"+circle);
+System.out.print("area of circumfences"+circumfences);
+}
+}
