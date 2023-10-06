@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.*;
+class electricitybill
+{
+public static void main(String args[])
+{
+int units,x;
+Scanner s=new Scanner (System.in);
+System.out.println("enter the no:-ofchoice(1-2)");
+x=s.nextInt();
+System.out.println("enter the units);
+units=s.nextInt();
+switch(x);
+{
+case 1:
+system.out.println("domestic");
+if(units>100)
+System.out.println("the eletrcity bill is :"+0*units);
+else if(units>101 && units<300)
+System.out.println("the eletrcity bill is :"+2.25*units);
+else if(units>301 && units<500)
+System.out.println("the eletrcity bill is :"+4*units);
+else
+System.out.println("the eletrcity bill is :"+7*units);
+break;
+case 2:
+system.out.println("industry");
+if(units>100)
+System.out.println("the eletrcity bill is :"+0*units);
+else if(units>101 && units<300)
+System.out.println("the eletrcity bill is :"+4*units);
+else if(units>301 && units<500)
+System.out.println("the eletrcity bill is :"+7*units);
+else
+System.out.println("the eletrcity bill is :"+10*units);
+break;
+default:
+System.out.println("invalid");
+}
+}
+}
