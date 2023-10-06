@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class simpleinterset
+{
+public static void main(String args[])
+{
+int p,n,age;
+float r;
+Scanner s=new Scanner (System.in);
+System.out.println("enter the p vaule");
+p=s.nextInt();
+System.out.println("enter the n vaule");
+n=s.nextInt();
+System.out.println("enter the age");
+age=s.nextInt();
+if (age>=60)
+System.out.println("total amount"+p*n*12/100);
+else
+System.out.println("total amount"+p*n*10/100);
+}
+}
