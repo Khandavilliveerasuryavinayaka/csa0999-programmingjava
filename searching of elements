@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+class searching
+{
+ public static void main(String args[])
+{
+ int s,i;
+ Scanner z = new Scanner(System.in);
+int x[] = new int[5];
+ System.out.println("enter the 5 values");
+ for(i=0;i<5;i++){
+x[i] = z.nextInt();
+}
+ System.out.println("enter the searching element");
+ s=z.nextInt();
+
+
+
+  for(i=0;i<5;i++)
+{
+if (x[i]==s)
+System.out.println("element found");
+else
+System.out.println("element not found ");
+}
+}
+}
