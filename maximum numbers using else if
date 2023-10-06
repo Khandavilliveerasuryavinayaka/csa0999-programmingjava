@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+class maximum
+{
+public static void main(String args[])
+{
+int  x,y,z;
+Scanner s=new Scanner(System.in);
+System.out.print("enter the x value");
+x=s.nextInt();
+System.out.print("enter the y value");
+y=s.nextInt();
+System.out.print("enter the z value");
+z=s.nextInt();
+if(x>y && x>z)
+System.out.print(" x is the maximum number");
+else if(y>x && y>z)
+System.out.print(" y is the maximum number");
+else
+System.out.print(" z is the maximum number");
+}
+}
